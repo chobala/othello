@@ -115,3 +115,28 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+.board {
+  background-color: green;
+  height: 640px;
+  width: 640px;
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  border: 1px solid#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stone {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: white;
+}
